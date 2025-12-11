@@ -1,6 +1,6 @@
 [package]
 name = "anonymous"
-version = "0.3.0"
+version = "0.3.1"
 edition = "2024"
 description = "A Rust project template with anonymous macro."
 license = "MPL-2.0"

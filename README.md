@@ -8,7 +8,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-anonymous = "0.1.0"
+anonymous = "0.3.1"
 ```
 
 ## Usage
