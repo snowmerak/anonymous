@@ -1,14 +1,14 @@
-use structx::anon_struct;
+use anonymous::structx;
 
 fn main() {
-    let person = anon_struct! {
+    let person = structx! {
         derive(Debug);
         name: String = "Alice".to_string(),
         age: u32 = 30,
     };
     println!("{:?}", person);
 
-    let another_person = anon_struct! {
+    let another_person = structx! {
         derive(Debug);
         title: String = "Engineer".to_string(),
         years_experience: u8 = 5,

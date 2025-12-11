@@ -1,5 +1,5 @@
 #[macro_export]
-macro_rules! anon_struct {
+macro_rules! structx {
     (derive($($derive:ident),*); $($field:ident : $ty:ty = $value:expr),* $(,)?) => {
         {
             #[derive($($derive),*)]
